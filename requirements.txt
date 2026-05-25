@@ -1,0 +1,15 @@
+# Required Python packages for School Inventory System
+# Install all at once with: pip install -r requirements.txt
+
+Flask==3.0.0
+
+# For timezone support (Philippine Time UTC+8)
+pytz==2023.3
+
+# For Excel/PDF exports (Reports feature)
+openpyxl==3.1.2
+reportlab==4.0.7
+
+# Optional: For generating QR codes
+# Uncomment if you want to generate student QR codes
+# qrcode[pil]==7.4.2
